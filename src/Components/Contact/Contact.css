@@ -1,0 +1,130 @@
+#contact{
+    height: auto;
+    min-height: 100vh;
+    padding: 80px 0;
+     display: flex;
+     flex-direction: column;
+     background-color: #0E2445;
+     align-items: center;
+     font-family: "Poppins", sans-serif;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+   border-radius: 10px;
+}
+
+
+
+
+
+form{
+    height: 400px;
+    width: 500px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+form input{
+    width: 400px;
+    height: 40px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid #3AC8FF ;
+    color: white;
+    font-family: "Poppins", sans-serif;
+   
+    
+}
+
+form textarea{
+
+    width: 400px;
+    height: 80px;
+    resize: none;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid #3AC8FF;
+    padding: 1.5rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+   
+
+}
+
+
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color:  #3AC8FF ;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #3AC8FF ;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 1px solid white; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+.form-description{
+
+    height: 400px;
+    width: 500px;
+    display: flex;
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.form-description p{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+.form-message{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #3AC8FF ;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .contact-form{
+        flex-direction: column;
+        
+    }
+
+    .form-description{
+        display: none;
+    }
+
+    .form-message{
+        font-size: 20px;
+    }
+    
+
+   
+  }
